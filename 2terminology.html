@@ -1,0 +1,26 @@
+---
+layout: default
+title: Terminology
+---
+<p><img src="assets/terms/terminology.jpeg"></img></p>
+
+<h1>Terminololgy</h1>
+<p>
+  The terms listed here might have a formal defenition, or several, 
+  but this list are my take on them. They are described from my perspective 
+  as an Agile Coach. Sometimes the term normally used is replaced with an
+  alternative that creates an association that is more useful.
+</p>
+
+<table>
+    <tr>
+        <th>Term</th>
+        <th>Short Description</th>
+    </tr>
+  {% for term in site.terms %}
+    <tr>
+      <td><a href="{{ term.url | relative_url }}"><b>{{ term.title }}</b></a></td>
+      <td>{{ term.shortDescription | markdownify }}</td>
+    </tr>
+  {% endfor %}
+</table>

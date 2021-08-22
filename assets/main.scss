@@ -15,12 +15,24 @@
     --aliby-light-cyan-color: #cbe3e5;
 }
 
+img[alt="Tom Mårdh Small"] {
+  width: 100px;
+  transform: translateX(-25px) rotate(-10deg);
+  border-color: white;
+  border: solid;
+  border-width: 5px;
+}
+
 img[alt="Tom Mårdh"] {
     width: 500px;
 }
 
+img[alt="Tom and the Oak"] {
+  width: 1910px;
+}
+
 img[alt="Aliby"] {
-    width: 200px;
+    width: 100px;
 }
 
 .site-nav a.current {
@@ -29,11 +41,11 @@ img[alt="Aliby"] {
 }
 
 .site-nav {
-  background-color: #dd9dae;
 }
+
 .site-header {
-    background-color: #dd9dae;
-    padding: 30px;
+  background-color: #dd9dae;
+    padding: 25px;
 }
 
 
@@ -99,4 +111,30 @@ a.page-link:active { text-decoration: none; }
 .main-menu-item {
   list-style-type: none;
   color: white;
+}
+
+table th {
+    background-color: #cbe3e5;
+}
+
+.columns-container2 {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.column-content2 {
+    background-color: red;
+}
+
+.column-index2 {
+    background-color: blue;
+}
+
+.column-content2, .column-index2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 100vh;
+    width: 40%;
+    text-align: center;
+    font-weight:bold;
 }

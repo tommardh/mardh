@@ -1,0 +1,15 @@
+---
+layout: default
+title: Posts
+---
+<p><img src="assets/terms/blog.jpeg"></img></p>
+
+<h1>Posts</h1>
+
+  {% for post in site.posts %}
+    <div>
+      <b><a href="{{ post.url | relative_url }}">{{ post.title }}</a></b> - 
+      <i>{{ post.date | date: "%Y-%m-%d %H:%M" }}</i>
+      {{ post.shortDescription | markdownify }}
+    </div>
+  {% endfor %}
