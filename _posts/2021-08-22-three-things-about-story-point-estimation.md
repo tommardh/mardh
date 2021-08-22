@@ -5,8 +5,9 @@ shortDescription: All in all there is a lot of value in doing story point estima
 date:   2021-08-22 20:20:49 +0200
 categories: test
 ---
-
 ![story point estimation](../../../../assets/posts/storypointestimation.jpg)
+
+![Draft](../../../../assets/draft-stamp.png)
 
 - How much work is remaining and how long time it will take
 - Resource planning to make sure everyone in the team is occupied

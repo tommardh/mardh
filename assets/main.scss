@@ -35,6 +35,11 @@ img[alt="Aliby"] {
     width: 100px;
 }
 
+img[alt="Draft"] {
+  width: 200px;
+  float: right;
+}
+
 .site-nav a.current {
   font-weight: bolder;
   color: white;
