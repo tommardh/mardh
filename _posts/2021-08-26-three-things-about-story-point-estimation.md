@@ -50,4 +50,6 @@ All in all there is a lot of value in doing story point estimation with planning
 - velocity from previous sprints to use when establishing capacity for coming sprints
 - Less focus on time and how to keep everyone busy
 
+***
+
 [^1]: [Wikipedia: Planning Poker](https://en.wikipedia.org/wiki/Planning_poker)
