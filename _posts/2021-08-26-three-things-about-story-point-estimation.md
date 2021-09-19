@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Three things you do not have to consider using story point estimation"
-shortDescription: All in all there is a lot of value in doing story point estimation with planning poker with the entire team. Done right it will give us increased understanding of what the story is all about, velocity from previous sprints to use when establishing capacity for coming sprints as well as less focus on time and how to keep everyone busy.
+title: Three things you do not have to consider using story point estimation
+image: /assets/posts/storypointestimation.jpg
+description: All in all there is a lot of value in doing story point estimation with planning poker with the entire team. Done right it will give us increased understanding of what the story is all about, velocity from previous sprints to use when establishing capacity for coming sprints as well as less focus on time and how to keep everyone busy.
 date:   2021-08-26 20:20:49 +0200
 categories: post
 ---

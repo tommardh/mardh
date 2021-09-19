@@ -11,6 +11,6 @@ permalink: /posts/
     <div>
       <b><a href="{{ post.url | relative_url }}">{{ post.title }}</a></b> - 
       <i>{{ post.date | date: "%Y-%m-%d %H:%M" }}</i>
-      {{ post.shortDescription | markdownify }}
+      {{ post.description | markdownify }}
     </div>
   {% endfor %}

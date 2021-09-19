@@ -13,6 +13,23 @@ permalink: /terminology/
   alternative that creates an association that is more useful.
 </p>
 
+<!-- div class="mermaid">
+  graph TD;
+  A(forecast)
+  B(expected items)
+  C(uncertain items)
+  A -- > B & C
+</div -->
+<div class="mermaid">
+  graph TD;
+  A(forecast)
+  B(expected items)
+  C(uncertain items)
+  A -- contains --> B & C
+  click B "{{ '/terms/expected.html' | relative_url }}"
+  click C "{{ '/terms/uncertain.html' | relative_url }}"
+</div>  
+
 <table>
     <tr>
         <th>Term</th>
@@ -21,7 +38,7 @@ permalink: /terminology/
   {% for term in site.terms %}
     <tr>
       <td><a href="{{ term.url | relative_url }}"><b>{{ term.title }}</b></a></td>
-      <td>{{ term.shortDescription | markdownify }}</td>
+      <td>{{ term.description | markdownify }}</td>
     </tr>
   {% endfor %}
 </table>

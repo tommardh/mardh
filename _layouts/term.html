@@ -26,20 +26,20 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <table>
+  <!-- table -->
   <tr class="columns-container">
     <td class="column-content post-content e-content" itemprop="articleBody">
       {{ content }}
     </td>
-    <td class="column-index">
+    <!--td class="column-index">
     {% for term in site.terms %}
         <a href="{{ term.url }}">
           {{ term.title }}
         </a></br>
     {% endfor %}
-      </td>
+      </td -->
     </tr>
-  </table>
+  <!-- /table -->
 
 {%- if site.disqus.shortname -%}
 {%- include disqus_comments.html -%}
